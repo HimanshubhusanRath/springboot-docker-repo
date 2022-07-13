@@ -1,0 +1,6 @@
+spring:
+  data:
+    mongodb:
+      database: lmg-customers
+      host: hr-mongodb # DOCKER INSTANCE NAME 
+      port: 27017
