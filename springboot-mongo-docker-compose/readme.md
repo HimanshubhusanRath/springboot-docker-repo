@@ -17,7 +17,7 @@ _Steps & Commands_
 **2. Docker Compose**
 * Here we define the services and the link between them in ‘docker-compose.yml’ file.
 * Then we run the application using the below command from the directory where this docker-compose.yml file is present.
-  *  ‘docker-compose up’’
+  *  docker-compose up
 
 
 
