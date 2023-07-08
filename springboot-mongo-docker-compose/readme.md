@@ -28,7 +28,8 @@
 * server.port (application.yml) = X
   * The container listens on the 'X' port.
 * ports (docker-compose.yml) = Y:X
-  * The host port 'Y' listens to the exposed port 'X' of the container
+  * The port 'Y' on host-machine is mapped to the exposed port 'X' of the container.
+  * The application can be accessed on the host-port (e.g. localhost:Y)
 
 
 
