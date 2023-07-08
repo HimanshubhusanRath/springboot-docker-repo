@@ -4,14 +4,10 @@ services:
     image: mongo:latest
     container_name: hr-mongodb
     ports:
-      - 27017:27017
+      - '27017:27017'
       
   springboot-mongo-app:
-    build: .  # Path to the Dockerfile
-    container_name: springboot-mongodb # Name of the container 
-    image: springboot-mongo-app:1.0.0 # Name of the image to be generated
+    container_name: springboot-mongodb
+    image: springboot-mongo-app:1.0.0
     ports:
-      - 8080:8080
-    links:
-      - hr-mongodb
-    
+      - '8001:8007'

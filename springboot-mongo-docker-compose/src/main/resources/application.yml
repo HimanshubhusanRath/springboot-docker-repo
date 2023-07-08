@@ -4,3 +4,7 @@ spring:
       database: lmg-customers
       host: hr-mongodb # DOCKER INSTANCE NAME 
       port: 27017
+
+
+server:
+  port: 8007
